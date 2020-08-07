@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Portalindo Klaten | Admimistrasi</title>
+  <title>Uji Algoritma | Admimistrasi</title>
   <link href="<?php echo base_url('assets/image/favicon.png'); ?>" rel="icon" type="image/x-icon" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="<?php echo base_url('/assets/bower_components/bootstrap/dist/css/bootstrap.min.css'); ?>">
@@ -192,7 +192,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>PR</b>T</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">PTL-<b>KLATEN<i class="fa fa-support"></i></b></span>
+      <span class="logo-lg">UJI-<b>ALGORITMA</b></span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->
@@ -203,27 +203,7 @@
       </a>
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
-        <ul class="nav navbar-nav">
-          <li class="dropdown messages-menu">
-            <a href="<?php echo base_url('extradiskon'); ?>">
-              <i class="fa fa-percent"></i>
-            </a>
-          </li>
-          <li class="dropdown messages-menu">
-            <a href="<?php echo base_url('batch'); ?>">
-              <i class="fa fa-cubes"></i>
-            </a>
-          </li>
-          <li class="dropdown messages-menu">
-            <a href="<?php echo base_url('penjualan/ubah_nota'); ?>">
-              <i class="fa fa-crop"></i>
-            </a>
-          </li>
-          <li class="dropdown messages-menu">
-            <a id="login">
-              <i class="fa fa-google"></i>
-            </a>
-          </li>
+        <ul class="nav navbar-nav">          
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
