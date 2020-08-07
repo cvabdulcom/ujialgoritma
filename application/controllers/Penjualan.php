@@ -13,42 +13,6 @@ class Penjualan extends CI_Controller{
 
   // ################################################ DASHBOARD SESION [1] ##########################################
   
-  /** Nota Sales lapangan */
-  function Notajpc(){    
-    $ambildata['no_nota_penjualan'] = $this->penjualan_model->get_no_nota();
-    if($this->session->userdata('user_level_olikuapp')==='2'){
-      $this->load->view('admin/header');
-      $this->load->view('admin/nota_penjualan_lapangan_jpc', $ambildata);
-      $this->load->view('admin/footer');
-      // $this->load->view('admin/cek', $ambildata);
-    }else{ 
-      echo "Access Denied";
-    }
-  }
-
-  function Notajpt(){    
-    $ambildata['no_nota_penjualan'] = $this->penjualan_model->get_no_nota();
-    if($this->session->userdata('user_level_olikuapp')==='2'){
-      $this->load->view('admin/header');
-      $this->load->view('admin/nota_penjualan_lapangan_jpt', $ambildata);
-      $this->load->view('admin/footer');
-    }else{ 
-      echo "Access Denied";
-    }
-  }
-
-  function Notakon(){    
-    $ambildata['no_nota_penjualan'] = $this->penjualan_model->get_no_nota();
-    if($this->session->userdata('user_level_olikuapp')==='2'){
-      $this->load->view('admin/header');
-      $this->load->view('admin/nota_penjualan_lapangan_kon', $ambildata);
-      $this->load->view('admin/footer');
-    }else{ 
-      echo "Access Denied";
-    }
-  }
-  /** Nota Sales lapangan */
-
   /** Nota kantor */
   function Notakantor(){    
     $ambildata['no_nota_penjualan'] = $this->penjualan_model->get_no_nota();
