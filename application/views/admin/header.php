@@ -183,7 +183,7 @@
   </style>
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini fixed">
+<body class="hold-transition skin-blue sidebar-mini fixed" onload=display_ct();>
 <div class="wrapper">
   <header class="main-header">
 
@@ -216,7 +216,7 @@
                 <img src="<?php echo base_url('assets/') ?>dist/img/avatar5.png" class="img-circle" alt="User Image">
                 <p>
                   <?php echo $this->session->userdata('nama_olikuapp'); ?>
-                  <small>Admin</small>
+                  <small id="ct"></small>
                 </p>
               </li>
               </li>

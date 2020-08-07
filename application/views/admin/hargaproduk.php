@@ -20,47 +20,11 @@
         </a>
       </li>  
       <li class="header">MENU NAVIGATION</li>
-      <li class="treeview">
-        <a href="#">
-          <i class="fa fa-industry"></i> <span>Laporan</span>
-          <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
-          </span>
-        </a>
-        <ul class="treeview-menu">
-          <li><a href="<?php echo base_url('laporan/outlet'); ?>"><i class="fa fa-circle-o"></i> Laporan Outlet</a></li>
-          <li><a href="<?php echo base_url('laporan/piutang'); ?>"><i class="fa fa-circle-o"></i> Laporan Piutang</a></li>
-          <li><a href="<?php echo base_url('laporan/sales'); ?>"><i class="fa fa-circle-o"></i> Laporan Sales</a></li>
-          <li><a href="<?php echo base_url('laporan/stok'); ?>"><i class="fa fa-circle-o"></i> Laporan Stok</a></li>
-          <li><a href="<?php echo base_url('laporan/pembelian'); ?>"><i class="fa fa-circle-o"></i> Laporan Pembelian</a></li>
-          <li><a href="<?php echo base_url('laporan/penjualan'); ?>"><i class="fa fa-circle-o"></i> Laporan Penjualan</a></li>
-          <li><a href="<?php echo base_url('laporan/kas'); ?>"><i class="fa fa-circle-o"></i> Laporan Kas</a></li>
-          <li><a href="<?php echo base_url('laporan/accounting'); ?>"><i class="fa fa-circle-o"></i> Monitor Accounting</a></li>
-        </ul>
-      </li>
-      <li class="treeview">
-        <a href="#">
+      <li>
+        <a href="<?php echo base_url('penjualan/notakantor'); ?>">
           <i class="fa fa-cart-arrow-down"></i> <span>Nota Penjualan</span>
-          <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
-          </span>
         </a>
-        <ul class="treeview-menu">
-          <li class="treeview">
-            <a href="#"><i class="fa fa-circle-o"></i> Sales Lapangan
-              <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-            </a>
-            <ul class="treeview-menu">
-              <li><a href="<?php echo base_url('penjualan/notajpc'); ?>"><i class="fa fa-circle-o"></i> Jual Putus Cash</a></li>
-              <li><a href="<?php echo base_url('penjualan/notajpt'); ?>"><i class="fa fa-circle-o"></i> Jual Putus Tempo</a></li>
-              <li><a href="<?php echo base_url('penjualan/notakon'); ?>"><i class="fa fa-circle-o"></i> Konsinyasi</a></li>
-            </ul>
-          </li>
-          <li><a href="<?php echo base_url('penjualan/notakantor'); ?>"><i class="fa fa-circle-o"></i> Sales Kantor</a></li>          
-        </ul>
-      </li>
+      </li>  
       <li>
         <a href="<?php echo base_url('pembelian/notapembelian'); ?>">
           <i class="fa fa-file-zip-o"></i> <span>Nota Pembelian</span>
@@ -75,79 +39,7 @@
         <ul class="treeview-menu">
           <li><a href="<?php echo base_url('suratjalan/sj_masuk'); ?>"><i class="fa fa-circle-o"></i> SJ Masuk</a></li>
           <li><a href="<?php echo base_url('suratjalan/sj_keluar'); ?>"><i class="fa fa-circle-o"></i> SJ Keluar</a></li>
-          <li><a href="<?php echo base_url('suratjalan/sj_stokoutlet'); ?>"><i class="fa fa-circle-o"></i> SJ Stok Outlet</a></li>
-        </ul>
-      </li>  
-      <li class="treeview">
-        <a href="#"><i class="fa fa-money"></i> Kas Harian
-          <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
-          </span>
-        </a>
-        <ul class="treeview-menu">
-          <li><a href="<?php echo base_url('kasharian/pembayaran_nota_jual'); ?>"><i class="fa fa-circle-o"></i> Pembayaran Nota Jual</a></li>
-          <li><a href="<?php echo base_url('kasharian/pembayaran_nota_beli'); ?>"><i class="fa fa-circle-o"></i> Pembayaran Nota Beli</a></li>
-          <li><a href="<?php echo base_url('kasharian/biaya'); ?>"><i class="fa fa-circle-o"></i> Biaya</a></li>
-          <li><a href="<?php echo base_url('kasharian/pendapatan_lain_lain'); ?>"><i class="fa fa-circle-o"></i> Pendapatan Lain-lain</a></li>
-          <li><a href="<?php echo base_url('kasharian/permodalan'); ?>"><i class="fa fa-circle-o"></i> Permodalan</a></li>
-          <li><a href="<?php echo base_url('kasharian/setoran'); ?>"><i class="fa fa-circle-o"></i> Setoran</a></li>
-        </ul>
-      </li> 
-      <li>
-        <a href="<?php echo base_url('pencabutan'); ?>">
-          <i class="fa fa-close"></i> <span>Pencabutan</span>
-        </a>
-      </li>  
-      <li>
-        <a href="<?php echo base_url('returbarang'); ?>">
-          <i class="fa fa-retweet"></i> <span>Retur Barang</span>
-        </a>
-      </li>  
-      <li>
-        <a href="<?php echo base_url('petarute'); ?>">
-          <i class="fa fa-map-marker"></i> <span>Peta Rute</span>
-        </a>
-      </li>
-      <li class="header">REPORT NAVIGATION</li>      
-      <li class="treeview">
-        <a href="#">
-          <i class="fa fa-users"></i> <span>Outlet Masuk</span>
-          <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
-          </span>
-        </a>
-        <ul class="treeview-menu">
-          <li class="treeview">
-            <a href="#"><i class="fa fa-circle-o"></i> Jual Putus
-              <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-            </a>
-            <ul class="treeview-menu">
-              <li><a href="<?php echo base_url('outletmasuk/jp_filekontraktempo'); ?>"><i class="fa fa-circle-o"></i> File Kontrak Tempo</a></li>
-            </ul>
-          </li>
-          <li class="treeview">
-            <a href="#"><i class="fa fa-circle-o"></i> Konsinyasi
-              <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-            </a>
-            <ul class="treeview-menu">
-              <li><a href="<?php echo base_url('outletmasuk/ky_filekontrak'); ?>"><i class="fa fa-circle-o"></i> File Kontrak</a></li>
-              <li><a href="<?php echo base_url('outletmasuk/ky_stokawal'); ?>"><i class="fa fa-circle-o"></i> Stok Awal</a></li>
-            </ul>
-          </li>
-          <li class="treeview">
-            <a href="#"><i class="fa fa-circle-o"></i> Group Buying
-              <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-            </a>
-            <ul class="treeview-menu">
-              <li><a href="<?php echo base_url('outletmasuk/gb_rekap'); ?>"><i class="fa fa-circle-o"></i> Rekap</a></li>
-            </ul>
-          </li>
+          <li><a href="<?php echo base_url('suratjalan/sj_stokoutlet'); ?>"><i class="fa fa-circle-o"></i> Mutasi Gudang</a></li>
         </ul>
       </li>
       <li class="active">
@@ -181,15 +73,6 @@
         <div class="box">
           <!-- /.box-header -->
           <div class="box-body table-responsive">
-            <form method="POST" action="<?php echo base_url('hargaproduk/cetak_pricelist'); ?>" target="_blank">
-              <div class="form-group">
-                <div class="input-group col-md-3">
-                  <span class="input-group-btn">
-                    <button type="submit" class="btn btn-primary btn-sm btn-flat" id="button_search"><i class="fa fa-print"></i> Cetak Pricelist</button>
-                  </span>
-                </div>
-              </div>
-            </form>
             <table id="example1" class="table table-bordered table-striped dataTable">
               <thead>
                 <tr>

@@ -8,18 +8,15 @@ class Penjualan extends CI_Controller{
     }
     /** MENGAKSES MODEL HARGA */
     $this->load->model('penjualan_model');
-    $this->load->model('jualputus_model');
   }
 
   // ################################################ DASHBOARD SESION [1] ##########################################
   
   /** Nota kantor */
-  function Notakantor(){    
-    $ambildata['no_nota_penjualan'] = $this->penjualan_model->get_no_nota();
-    $ambildata['id_outlet'] = $this->jualputus_model->get_id_outlet();
+  function Notakantor(){
     if($this->session->userdata('user_level_olikuapp')==='2'){
       $this->load->view('admin/header');
-      $this->load->view('admin/nota_penjualan_kantor', $ambildata);
+      $this->load->view('admin/nota_penjualan');
       $this->load->view('admin/footer');
     }else{ 
       echo "Access Denied";
